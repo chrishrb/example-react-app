@@ -1,6 +1,6 @@
 import { Button, Grid } from "@mui/material";
 
-const FileUpload = ({onSubmit}) => {
+const FileUpload = ({ onSubmit }) => {
 
   return (
     <div>

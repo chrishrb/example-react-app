@@ -1,6 +1,6 @@
 import { CardMedia, Grid, Stack, Typography } from "@mui/material"
 
-const ViewImage = ({imageUrl, prediction}) => {
+const ViewImage = ({ imageUrl, prediction }) => {
   return (
     <Stack>
       <Grid container justifyContent="center">
