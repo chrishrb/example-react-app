@@ -99,7 +99,7 @@ function App() {
         {isLoading &&
           <LoadingCircle />
         }
-        {imageUrl && prediction &&
+        {imageUrl && prediction && !isLoading &&
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Paper
               sx={{
