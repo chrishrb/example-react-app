@@ -20,7 +20,13 @@ function App() {
 
     // Files are stored here
     const file = e.target[0].files[0];
-    console.log(e.target[0].files[0])
+    console.log(file)
+
+    if (!file) {
+      setPrediction(null);
+      setErrorMessage("Choose image for upload first..")
+      return
+    }
 
     // Get animal and url from api call
     setIsLoading(true);
